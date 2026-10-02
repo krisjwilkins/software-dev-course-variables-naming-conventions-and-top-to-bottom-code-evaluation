@@ -30,3 +30,14 @@ let c = 20;
 let d = a + " bought " + b + " items for $" + c + ".";
 
 console.log(d);
+
+let shopperName = "Alice";
+let itemsPurchased = 5;
+let totalCost = 20;
+
+let currencySign = "$";
+let storeName = "Walmart";
+
+let transactionSummary = shopperName + " bought " + itemsPurchased + " items for " + currencySign + totalCost + " at " + storeName + ".";
+
+console.log(transactionSummary);
